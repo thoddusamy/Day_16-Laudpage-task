@@ -1,0 +1,867 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------- header content Start ---------------- */
+
+.hero-page {
+    background-color: hsl(210deg 4% 11%);
+    color: #fff;
+    padding-top: 40px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: -670px;
+}
+
+.list .list_item {
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+    margin-right: 30px;
+}
+
+/* -------------- header content End ---------------- */
+
+/* -------------- Main content Start ---------------- */
+.hero-page {
+    height: 720px;
+}
+
+.hero-content {
+    display: grid;
+    place-content: center;
+    min-height: 75vh;
+    text-align: center;
+}
+
+.hero-content>h1,
+.hero-content>h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-content>h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero-content>h4 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* ---------------- page 2 Start --------------- */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 70px 0px;
+}
+
+.author-content {
+    width: 450px;
+    font-size: 14px;
+}
+
+.author-img {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 130px;
+}
+
+.image {
+    width: 320px;
+    height: 420px;
+    border-radius: 5px;
+}
+
+.content-top {
+    margin-bottom: 50px;
+}
+
+.content-top>h2,
+.content-bottom>h2 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content-top>p,
+.content-bottom>p {
+    line-height: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+._btn {
+    margin-right: 7px;
+    text-decoration: none;
+    color: #fff;
+}
+
+._btn:hover {
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+
+.wiki-btn {
+    background-color: hsl(210deg 3% 88%);
+    padding: 8px 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+.wiki-btn:hover {
+    color: black;
+}
+
+.yt-btn {
+    background-color: hsl(0deg 71% 51%);
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.amazon-btn {
+    background-color: hsl(24deg 89% 53%);
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.quote {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(210deg 4% 11%);
+    color: rgb(232, 232, 232);
+    padding: 60px 0;
+}
+
+.awards {
+    margin: 50px 0 50px 0;
+}
+
+.award-title>p {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    line-height: 0.5em;
+    margin: 10px 0 20px;
+    font-size: 25px;
+}
+
+.award-title p span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.awards-list {
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.award-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.award-year {
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: rgb(110, 110, 110);
+}
+
+.award-desc {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: rgb(110, 110, 110);
+}
+
+.awards-grp {
+    display: flex;
+    justify-content: center;
+    margin: 0 250px 130px 250px;
+}
+
+.poetry-song-content {
+    display: flex;
+    justify-content: center;
+    margin: 0 250px;
+}
+
+.poetry-poems-fullbox {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.poetry-content>h2,
+.poems-content>h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    line-height: 0.5em;
+    margin: 10px 0 20px;
+    font-size: 25px;
+}
+
+.poetry-content h2 span,
+.poems-content h2 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.poetry-content {
+    margin-right: 30px;
+    width: 48%;
+}
+
+.poems-content {
+    width: 48%;
+
+}
+
+.poetry-content>h2,
+.poems-content>h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.poetry-content ul li,
+.poems-content ul li {
+    font-size: 14px;
+}
+
+.ul-lists {
+    margin-top: 70px;
+}
+
+/* -------------- Main content End ---------------- */
+
+/* -------------- footer start ---------------- */
+
+.footer-content {
+    background-color: hsl(210deg 4% 11%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 50px 280px;
+}
+
+.footer-content-left>h2,
+.footer-content-middle>h2,
+.footer-content-right>h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-content-left>p,
+.footer-content-middle>p,
+.footer-content-right>p {
+    font-size: 11px;
+    margin-top: 10px;
+    color: rgb(221, 221, 221);
+}
+
+.footer-content-left {
+    width: 400px;
+}
+
+.footer-content-right {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.footer-content-right>p {
+    line-height: 20px;
+}
+
+.footer-content-middle {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.footer-content-middle>p {
+    color: rgb(169, 169, 169);
+}
+
+.footer-content-left,
+.footer-content-middle {
+    border-right: 1px solid rgb(73, 73, 73);
+}
+
+.ftr-lf-authr-name {
+    color: rgb(169, 169, 169);
+}
+
+.ftr-span-text {
+    color: hsl(210deg 57% 48%);
+}
+
+/* -------------- footer end ---------------- */
+
+/* -------------- Media Queries Start ---------------- */
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* -------------- header content Start ---------------- */
+    .hero-page {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .list {
+        font-size: 12px;
+        margin: 0;
+    }
+
+
+    /* -------------- header content End ---------------- */
+
+
+    /* -------------- Main content Start ---------------- */
+
+    .hero-content>h1 {
+        font-size: 28px;
+    }
+
+    .hero-content>h4 {
+        font-size: 12px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 40px auto;
+    }
+
+    .author-content {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .author-img {
+        width: 290px;
+        height: 390px;
+        margin: 0 auto 10px auto;
+    }
+
+    .image {
+        width: 250px;
+        height: 350px;
+    }
+
+    .content-top {
+        margin-bottom: 30px;
+    }
+
+    .content-top>p,
+    .content-bottom>p {
+        width: 280px;
+        line-height: 21px;
+        font-size: 12px;
+    }
+
+    .content-top>h2,
+    .content-bottom>h2 {
+        font-size: 18px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+
+    ._btn {
+        margin: 20px 0 10px 0;
+        width: 40%;
+        text-align: center;
+    }
+
+    .quote h2 {
+        font-size: 12px;
+    }
+
+    .award-title>p {
+        font-size: 20px;
+    }
+
+    .awards-grp {
+        margin: 0;
+    }
+
+    .award-boxes {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .awards-list {
+        margin-bottom: 20px;
+    }
+
+    .awards-list>h2 {
+        font-size: 14px;
+    }
+
+    .awards-list>p {
+        font-size: 12px;
+    }
+
+    .poetry-song-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .poetry-poems-fullbox {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 10px auto 40px auto;
+    }
+
+    .poetry-content {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .poetry-content>h2,
+    .poems-content>h2 {
+        font-size: 20px;
+    }
+
+    .poetry-content .ul-lists li,
+    .poems-content .ul-lists li {
+        font-size: 12px;
+    }
+
+    .poems-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ul-lists {
+        margin-top: 40px;
+    }
+
+    /* -------------- Main content End ---------------- */
+
+    /* -------------- footer start ---------------- */
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .footer-content-left>h2,
+    .footer-content-middle>h2,
+    .footer-content-right>h2 {
+        font-size: 13px;
+    }
+
+    .footer-content-left>p,
+    .footer-content-middle>p,
+    .footer-content-right>p {
+        font-size: 10px;
+    }
+
+    .footer-content-left {
+        width: 70%;
+    }
+
+    .footer-content-right {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .footer-content-right>p {
+        line-height: 20px;
+    }
+
+    .footer-content-middle {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .footer-content-left,
+    .footer-content-middle {
+        border-right: none;
+        border-bottom: 1px solid rgb(169, 169, 169);
+    }
+
+    .footer-content-left,
+    .footer-content-middle,
+    .footer-content-right {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* -------------- header content Start ---------------- */
+    .hero-page {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .list {
+        margin: 0;
+    }
+
+    /* -------------- header content End ---------------- */
+
+
+    /* -------------- Main content Start ---------------- */
+
+    .hero-content>h1 {
+        font-size: 35px;
+    }
+
+    .hero-content>h4 {
+        font-size: 15px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 40px auto;
+    }
+
+    .author-content {
+        width: auto;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .author-img {
+        width: 290px;
+        height: 390px;
+        margin: 0 auto 40px auto;
+    }
+
+    .image {
+        width: 280px;
+        height: 380px;
+    }
+
+    .content-top {
+        margin-bottom: 30px;
+    }
+
+    .content-top>p,
+    .content-bottom>p {
+        width: 400px;
+        line-height: 23px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    ._btn {
+        margin: 20px 0 10px 0;
+        width: 40%;
+        text-align: center;
+    }
+
+    .quote h2 {
+        font-size: 15px;
+    }
+
+    .awards-grp {
+        margin: 0;
+    }
+
+    .award-boxes {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .awards-list {
+        margin-bottom: 20px;
+    }
+
+    .poetry-song-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .poetry-poems-fullbox {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 10px auto 40px auto;
+    }
+
+    .poetry-content {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .poems-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ul-lists {
+        margin-top: 40px;
+    }
+
+    /* -------------- Main content End ---------------- */
+
+    /* -------------- footer start ---------------- */
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .footer-content-left>h2,
+    .footer-content-middle>h2,
+    .footer-content-right>h2 {
+        font-size: 14px;
+    }
+
+    .footer-content-left>p,
+    .footer-content-middle>p,
+    .footer-content-right>p {
+        font-size: 12px;
+    }
+
+    .footer-content-left {
+        width: 70%;
+    }
+
+    .footer-content-right {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .footer-content-right>p {
+        line-height: 20px;
+    }
+
+    .footer-content-middle {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .footer-content-left,
+    .footer-content-middle {
+        border-right: none;
+        border-bottom: 1px solid rgb(169, 169, 169);
+    }
+
+    .footer-content-left,
+    .footer-content-middle,
+    .footer-content-right {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    /* -------------- header content Start ---------------- */
+    .hero-page {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .list {
+        margin: 0;
+    }
+
+    .list_item {
+        font-size: 18px;
+    }
+
+    /* -------------- header content End ---------------- */
+
+
+    /* -------------- Main content Start ---------------- */
+
+    .hero-content>h1 {
+        font-size: 45px;
+    }
+
+    .hero-content>h4 {
+        font-size: 20px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 40px auto;
+    }
+
+    .author-content {
+        width: auto;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .author-img {
+        width: 390px;
+        height: 490px;
+        margin: 0 auto 40px auto;
+    }
+
+    .image {
+        width: 380px;
+        height: 480px;
+    }
+
+    .content-top {
+        margin-bottom: 60px;
+    }
+
+    .content-top>p,
+    .content-bottom>p {
+        width: 600px;
+        line-height: 25px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    ._btn {
+        margin: 20px 0 10px 0;
+        width: 40%;
+        text-align: center;
+    }
+
+    .quote h2 {
+        font-size: 18px;
+    }
+
+    .awards-grp {
+        margin: 0;
+    }
+
+    .award-boxes {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .awards-list {
+        margin-bottom: 20px;
+    }
+
+    .poetry-song-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .poetry-poems-fullbox {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 10px auto 40px auto;
+    }
+
+    .poetry-content {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .poems-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ul-lists {
+        margin-top: 40px;
+    }
+
+    /* -------------- Main content End ---------------- */
+
+    /* -------------- footer start ---------------- */
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .footer-content-left>h2,
+    .footer-content-middle>h2,
+    .footer-content-right>h2 {
+        font-size: 14px;
+    }
+
+    .footer-content-left>p,
+    .footer-content-middle>p,
+    .footer-content-right>p {
+        font-size: 12px;
+    }
+
+    .footer-content-left {
+        width: 70%;
+    }
+
+    .footer-content-right {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .footer-content-right>p {
+        line-height: 20px;
+    }
+
+    .footer-content-middle {
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .footer-content-left,
+    .footer-content-middle {
+        border-right: none;
+        border-bottom: 1px solid rgb(169, 169, 169);
+    }
+
+    .footer-content-left,
+    .footer-content-middle,
+    .footer-content-right {
+        margin-top: 20px;
+    }
+}
